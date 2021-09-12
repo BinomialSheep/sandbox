@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+ }
+
+ 
+ body {
+    margin: 10px;
+    padding: 10px;
+ }
+
+header {
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    align-items: center;
+}
+
+
+
+.header-top {
+    display: flex;
+    height: 50px;
+    background-color: cornflowerblue;
+    /* 端にくっつけて等間隔で横に配置 */
+    justify-content: space-between;
+}
+
+#logo {
+    height: 100%;
+}
+
+
+.header-middle {
+    display: flex;
+    width: auto;
+    max-height: 75px;
+    /* 縦方向に中央ぞろえ */
+    align-items: center;
+    
+
+}
+.header-bottom {
+    background-color: darkgoldenrod;
+}
+.search-form {
+    background-color: pink;
+    width: 40%;
+    height: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.conditions {
+    display: flex;
+    flex-direction: column;
+}
+
+.containers {
+    display: flex;
+    flex-wrap: wrap; /* 折り返し */
+    width:100%;
+    min-height: 150%;
+    justify-content: space-evenly;
+    background-color:white;
+    
+}
+
+.image-box {
+    display: block;
+    border: ridge; /* 立体的に窪んだボーダー */
+    background-color: white;
+    
+    min-height: auto;
+    margin:10px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+    
+}
+.image-box img {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 85%;
+    height: 60%;
+}
+.image-box .title {
+    border: solid;
+    height: 15%;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: left;
+}
+.image-box .price-box {
+    border: solid;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: left;
+}
+.image-box .price-box .price {
+    color: brown;
+    font-size: 1.2em;
+}
+.image-box .price-box .yen {
+    color: brown;
+}
+
+.test {
+    background-color: chartreuse;
+}
+
+
+h1 {
+    margin: 0; padding: 0;
+    font-size: 20px;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+li {
+    margin: 0 0 0 15px;
+    font-size: 14px;
+}
+
+nav {
+    margin: 0 0 0 auto;
+}
